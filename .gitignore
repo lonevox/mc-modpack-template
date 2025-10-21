@@ -32,6 +32,7 @@
 !index.toml
 !pack.toml
 !packwiz-download-latest.sh
+!packwiz-download-latest.bat
 
 # md
 !README.md
