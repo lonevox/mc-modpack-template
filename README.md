@@ -6,7 +6,7 @@
 2. Go to **Actions** and wait for the `pages-build-deployment` workflow to finish.
 3. Finish [Setting up your local environment](CONTRIBUTING.md#setting-up-your-local-environment).
 4. If you wish to make a Modrinth pack instead of CurseForge, replace `./packwiz cf` in [build.yml](.github/workflows/build.yml#L23) with `./packwiz mr`.
-5. Edit [pack.toml](pack.toml) to your liking. You can find all the options for the pack file [here](https://packwiz.infra.link/reference/pack-format/pack-toml/). You'll likely want to change `name`, `author`, and `versions`.
+5. You'll likely want to change your [pack.toml](pack.toml) file from the default. The easiest way to do this is to re-initialize `pack.toml` with `./packwiz init -r`. If you're editing `pack.toml` manually, see [here](https://packwiz.infra.link/reference/pack-format/pack-toml/) for the file format.
 6. Commit your changes, if any, to main.
 
 > [!NOTE]
