@@ -10,4 +10,4 @@
 6. Commit your changes, if any, to main.
 
 > [!NOTE]
-> Every time you commit to main, a new build of your pack will be made, overwriting the previous build at `latest-dev`.
+> Every time you commit to main, a new build of your pack will be made, overwriting the previous build at [latest-dev](/../../releases/tag/latest-dev).
